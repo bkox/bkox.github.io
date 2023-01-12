@@ -51,15 +51,6 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      
-      <script src="https://utteranc.es/client.js"
-              repo="bkox/bkox.github.io"
-              issue-term="pathname"
-              theme="github-light"
-              crossorigin="anonymous"
-              async>
-      </script>
-      
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
@@ -78,6 +69,15 @@ layout: default
     {% endif %}
   </article>
 
+  
+  <script src="https://utteranc.es/client.js"
+          repo="bkox/bkox.github.io"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
@@ -102,4 +102,5 @@ layout: default
       </div>
     </div>
   {% endif %}
+ 
 </div>
