@@ -8,9 +8,11 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+            📂 <span style="font-family:'Cafe24Oneprettynight';">post count : </style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';"></style> 
       </li>
       <li>
+      
+      
         <ul>
             <!--csharp 카테고리 글들을 모아둔 페이지인 /categories/csharp 주소의 글로 링크 연결-->
             <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
@@ -20,6 +22,8 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        
+        
       </li>
   </ul>
 </nav>
