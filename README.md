@@ -71,7 +71,19 @@ gem install rake
 ```
 
 ![image](https://user-images.githubusercontent.com/121213023/215684062-87fda3f9-5503-48e1-8bc0-73f7b6af23ce.png)
-
+```
+gem install jekyll-paginate
+gem install jekyll-sitemap
+gem install jekyll-gist
+gem install jekyll-feed
+gem install jekyll-include-cache
+gem install octokit
+gem install rexml
+gem install faraday
+gem install sawyer
+gem install faraday-net_http
+gem install ruby2_keywords
+```
 
 # 빌드 명령어
 ```
