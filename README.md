@@ -52,8 +52,8 @@ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-vendor_ruby 폴더 삭제 (∵ 이 폴더 때문에 여기저기서 에러 발생)
-제조사의 커스터마이즈를 목적으로 만들어진 폴더
+vendor_ruby 폴더 삭제 (∵ 이 폴더 때문에 여기저기서 에러 발생)\
+제조사의 커스터마이즈를 목적으로 만들어진 폴더\
 jekyll을 포함해 우리가 사용하려는 환경은 사용자 홈에 설치된 ruby임. 즉, 삭제해도 무방
 ```
 sudo rm -rf /usr/lib/ruby/vendor_ruby/
