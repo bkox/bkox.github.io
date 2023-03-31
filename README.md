@@ -41,6 +41,6 @@ bundle exec jekyll build
 ```
 
 # category 추가
-_includes/nav_list_main 에 추가 필
-categories/ 에 추가 필요
+_includes/nav_list_main 에 추가 필요\
+categories/ 에 추가 필요\
 post 작성시 category 부분 
