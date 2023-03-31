@@ -26,7 +26,7 @@
          <ul>
             {% for category in site.categories %}
                 {% if category[0] == "aspnetcore" %}
-                    <li>📂 <a href="/categories/aspnetcore" class="">c# ({{category[1].size}})</a></li>
+                    <li>📂 <a href="/categories/aspnetcore" class="">asp.net core ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
@@ -34,7 +34,7 @@
          <ul>
             {% for category in site.categories %}
                 {% if category[0] == "wpf" %}
-                    <li>📂 <a href="/categories/wpf" class="">c# ({{category[1].size}})</a></li>
+                    <li>📂 <a href="/categories/wpf" class="">wpf ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
